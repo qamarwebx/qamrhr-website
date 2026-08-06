@@ -1,0 +1,120 @@
+/* Color Theme File */
+
+/*Color*/
+
+.project-page-section .loadmore .loadmore-button:hover,
+.project-page-section .loadmore .loadmore-button:focus,
+.project-page-section .loadmore .loadmore-button:active,
+.main-menu .navigation > li > ul > li:hover > a,
+.main-menu .navigation > li > ul > li > ul > li:hover > a,
+.page-title .page-breadcrumb li,
+.sidebar-page-container .comments-area .comment-box .comment-social a:hover,
+.author-box-two .author-inner .content .title,
+.meta-list li a:hover,
+.sidebar .popular-posts .post-info,
+.sidebar .popular-posts .post a:hover,
+.category-list li a:before,
+.category-list li a:hover,
+.about-widget .widget-content .socail-box a:hover,
+.post-options .inner-box ul li a:hover,
+.post-options .inner-box ul li a:hover .icon,
+.team-block .inner-box .image .content-overlay-box h2 a:hover,
+.links-list li a:hover,
+.news-block .inner-box .lower-content h3 a:hover,
+.news-block .inner-box .lower-content .likes .icon,
+.about-block .about-inner .know-more:hover,
+.about-block .about-inner h3 a:hover,
+.main-slider .social-box a:hover,
+.header-style-three .info-box .icon-box,
+.header-style-three .header-top .social-icon li a,
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li.current > a,
+.main-header .header-top .top-left .links li a:hover,
+.btn-style-one:hover,
+.list-style-one li:before,
+.theme_color,
+a {
+    color: #c71f4c;
+}
+
+/*Background Color*/
+
+.main-header .language .dropdown-menu > li > a:hover,
+.sidebar .search-box .form-group button,
+.project-tab .product-tab-btns .p-tab-btn:after,
+.project-page-section .filter-tabs .filter:after,
+.main-header .search-box-btn,
+.tags-posts a:hover,
+.calender-box .inner-box .lower-box .date-box .date-row .date:hover,
+.calender-box .inner-box .lower-box .date-box .date-row .date.active,
+.video-section .inner-container .overlay-box,
+.design-section .image-column .left-bar,
+.design-block .design-inner .image .overlay-box,
+.experiance-section .image-column .left-bar,
+.scroll-to-top:hover,
+.btn-style-two:hover,
+.btn-style-one,
+.project-page-section .loadmore .loadmore-button {
+    -webkit-background: linear-gradient(-45deg, #6d1135 -6%, #c71f4c 73%);
+    background: linear-gradient(-45deg, #6d1135 -6%, #c71f4c 73%);
+}
+
+
+/*Border Color*/
+
+.main-menu .navigation > li > ul,
+.main-menu .navigation > li > ul > li > ul,
+.contact-form .form-group input[type="text"]:focus,
+.contact-form .form-group input[type="password"]:focus,
+.contact-form .form-group input[type="tel"]:focus,
+.contact-form .form-group input[type="email"]:focus,
+.contact-form .form-group select:focus,
+.contact-form .form-group textarea:focus,
+.comment-form .form-group input[type="text"]:focus,
+.comment-form .form-group input[type="password"]:focus,
+.comment-form .form-group input[type="tel"]:focus,
+.comment-form .form-group input[type="email"]:focus,
+.comment-form .form-group select:focus,
+.comment-form .form-group textarea:focus,
+.skills .skill-item .skill-bar .bar-inner .bar,
+.main-header .search-panel input:focus,
+.main-header .search-panel select:focus,
+.main-header .search-box-outer .dropdown-menu,
+.main-header .language .dropdown-menu,
+.btn-style-two:hover,
+.btn-style-one,
+.project-page-section .loadmore .loadmore-button{
+	 border-color:#c71f4c;
+}
+
+.video-section .inner-container .overlay-box:before{
+	border-color:rgba(255,35,102,0.30);
+}
+
+@media only screen and (max-width: 767px){
+ 
+ .main-menu .navbar-header .navbar-toggle{
+	background-color: #c71f4c;
+	border-color: #c71f4c;
+ }
+ 
+ .main-menu .navbar-header .navbar-toggle,
+ .main-menu .navbar-collapse > .navigation,
+ .main-menu .navbar-collapse > .navigation > li > ul,
+ .main-menu .navbar-collapse > .navigation > li > ul > li > ul,
+ .main-menu .navbar-collapse > .navigation > li > a,
+ .main-menu .navbar-collapse > .navigation > li > ul > li > a,
+ .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a,
+ .main-menu .navbar-collapse > .navigation > li > a:hover,
+ .main-menu .navbar-collapse > .navigation > li > a:active,
+ .main-menu .navbar-collapse > .navigation > li > a:focus,
+ .main-menu .navbar-collapse > .navigation > li:hover > a,
+ .main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+ .main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+ .main-menu .navbar-collapse > .navigation > li.current > a,
+ .main-menu .navbar-collapse > .navigation > li.current-menu-item > a,
+ .header-style-two.inner-header .main-menu .navigation > li > a{
+	background-color: #c71f4c;
+ }
+ 
+}

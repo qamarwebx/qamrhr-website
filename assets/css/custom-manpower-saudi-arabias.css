@@ -1,0 +1,191 @@
+/*==============================
+Desktop Layout
+==============================*/
+
+.container-1 {
+    display: block;
+}
+
+.container-2 {
+    display: block;
+}
+
+.banner-form {
+    background: #ffffff;
+    padding: 35px;
+    border-radius: 25px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, .12);
+}
+
+.lets-get-started {
+    font-size: 20px;
+    font-weight: 800;
+    color: #17206d;
+    margin-bottom: 10px;
+}
+
+.banner-area-p {
+    font-size: 12px;
+    color: #3E4073;
+    margin-bottom: 15px;
+}
+
+.banner-form .form-control {
+    height: 58px;
+    border-radius: 14px;
+    border: 1px solid #ddd;
+    font-size: 17px;
+    padding: 0 18px;
+    box-shadow: none;
+}
+
+.banner-form select.form-control {
+    cursor: pointer;
+}
+
+.banner-btn,
+.get-started-btn {
+    width: 100%;
+    height: 58px;
+    background: #2b2b8f;
+    color: #fff;
+    border-radius: 14px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all .3s ease;
+}
+
+.banner-btn:hover,
+.get-started-btn:hover {
+    background: #1d1d75;
+    color: #fff;
+    transform: translateY(-2px);
+}
+
+.banner__content-three {
+    max-width: 650px;
+}
+
+.banner__content-three p {
+    margin: 25px 0;
+}
+
+/*==============================
+Tablet & Mobile
+==============================*/
+
+@media (max-width:991px) {
+
+    /* Show only form */
+    .container-1 {
+        display: block;
+        order: 1;
+    }
+
+    .container-2 {
+        display: none !important;
+    }
+
+    .banner-form {
+        padding: 22px;
+        margin: 20px 0;
+        border-radius: 18px;
+        box-shadow: 0 8px 25px rgba(0, 0, 0, .12);
+    }
+
+    .lets-get-started {
+        font-size: 22px;
+        text-align: left;
+        margin-bottom: 8px;
+    }
+
+    .banner-area-p {
+        text-align: left;
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .banner-form .form-control {
+        height: 50px;
+        font-size: 15px;
+        border-radius: 12px;
+    }
+
+    .banner-btn,
+    .get-started-btn {
+        height: 50px;
+        font-size: 16px;
+        border-radius: 12px;
+    }
+
+    .text-25-years {
+        display: none !important;
+    }
+
+}
+
+/*==============================
+Small Mobile
+==============================*/
+
+@media (max-width:575px) {
+    
+    .container-1 {
+        display: block;
+        order: 1;
+    }
+
+    .container-2 {
+        display: none !important;
+    }
+
+    .banner-form {
+        padding: 18px;
+        border-radius: 15px;
+    }
+
+    .lets-get-started {
+        font-size: 20px;
+    }
+
+    .banner-area-p {
+        font-size: 14px;
+    }
+
+    .banner-form .form-control {
+        height: 48px;
+        font-size: 14px;
+    }
+
+    .banner-btn,
+    .get-started-btn {
+        height: 48px;
+        font-size: 15px;
+    }
+
+}
+
+/*==============================
+Validation Errors
+==============================*/
+
+.error-msg {
+    display: block;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+
+.consent-text {
+    font-size: 10px;
+    color: #6c757d;
+    text-align: center;
+    margin-bottom: 12px;
+    line-height: 1.5;
+}

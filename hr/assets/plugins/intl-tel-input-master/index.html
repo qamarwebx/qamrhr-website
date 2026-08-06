@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>International Telephone Input</title>
+    <link rel="stylesheet" href="build/css/intlTelInput.css" />
+    <link rel="stylesheet" href="build/css/demo.css" />
+  </head>
+
+  <body>
+    <h1>International Telephone Input</h1>
+    <form>
+        <p id="output">Please enter a valid number below</p>
+        <input id="phone" type="tel">
+      <button type="submit">Submit</button>
+    </form>
+
+    <script src="build/js/intlTelInput.js"></script>
+
+    <script>
+        const input = document.querySelector("#phone");
+        const output = document.querySelector("#output");
+
+        const iti = window.intlTelInput(input, {
+        nationalMode: true,
+        utilsScript: "build/js/utils.js" // just for formatting/placeholders etc
+        });
+
+        const handleChange = () => {
+        let text;
+        if (input.value) {
+            text = iti.isValidNumber()
+            ? "Valid number! Full international format: " + iti.getNumber()
+            : "Invalid number - please try again";
+        } else {
+            text = "Please enter a valid number below";
+        }
+        const textNode = document.createTextNode(text);
+        output.innerHTML = "";
+        output.appendChild(textNode);
+        };
+
+// listen to "keyup", but also "change" to update when the user selects a country
+input.addEventListener('change', handleChange);
+input.addEventListener('keyup', handleChange);
+
+    </script>
+
+  </body>
+</html>

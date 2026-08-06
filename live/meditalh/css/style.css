@@ -1,0 +1,537 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #444444;
+}
+
+a {
+    color: #6680ff;
+}
+
+a:hover {
+    color: #e76668;
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Raleway", sans-serif;
+}
+h1, h2{
+  font-size: 34px !important;
+}
+
+.robin_btn {
+    background: #90d000;
+    width: auto;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 30px;
+    margin: 35px 0;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# top_head
+--------------------------------------------------------------*/
+.top_head {
+    margin: 30px 0;
+}
+
+.top_head p {
+    font-size: 22px;
+    color: #282828;
+    margin: 10px 0;
+    margin-bottom: 30px;
+}
+
+.top_head .logo {
+    margin: 10px 0;
+}
+
+.top_head .logo img {}
+
+.top_head ul {
+    text-decoration: none;
+    list-style: none;
+}
+
+.top_head ul li {
+    text-decoration: none;
+    list-style: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.top_head ul li a {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 10px;
+    color: #525252;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    border: 2px solid #90d000;
+    margin: 10px 0;
+}
+
+.top_head ul li a:hover {
+    background: #90d000;
+    transition: 0.3s;
+    color: #000000;
+}
+
+/*--------------------------------------------------------------
+# Banner Area
+--------------------------------------------------------------*/
+.banner {
+    margin: 0;
+    padding: 30px;
+    background: url(../img/b-g.jpg);
+    background-position: center;
+    color: #ffffff;
+    padding: 50px 30px;
+}
+
+.banner .text-area {
+    margin: 30px 0;
+    text-align: right !important;
+}
+
+.banner h2 {
+    font-size: 42px;
+}
+
+.banner p {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+}
+
+.banner a {
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 20px;
+    color: #ffffff;
+    border: 2px solid;
+}
+
+.banner a:hover {
+    background: #ffffff;
+    color: #53b151;
+    transition: 0.4s;
+    border-color: #ffffff;
+}
+
+.banner .right-area img {
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+# call to action
+--------------------------------------------------------------*/
+.cta {
+    background: #48b95f;
+    padding: 10px;
+}
+
+.cta.form-group .form-control {
+    padding: 10px 15px;
+    border-radius: 8px;
+}
+
+.cta .form-inline {}
+
+.cta .form-group {
+    margin: 10px;
+}
+
+.cta form .btn {
+    padding: 10px 30px;
+}
+
+.cta .robin_btn {
+    background: #90d000;
+    width: 100%;
+    border-radius: 6px;
+    border: none;
+    padding: 8px;
+    margin: 35px 0;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.cta .form-control {
+    padding: 10px;
+}
+
+/*--------------------------------------------------------------
+# services
+--------------------------------------------------------------*/
+.ser-pt {
+    margin: 0;
+    padding: 30px;
+}
+
+.ser-pt h1 {
+    margin: 30px 0;
+}
+
+.slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slide-content {
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #FFF;
+}
+
+.image-content,
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+}
+
+.image-content {
+    position: relative;
+    row-gap: 5px;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #4070F4;
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #4070F4;
+}
+
+.overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+
+.card-image {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background: #FFF;
+    padding: 3px;
+}
+
+.card-image .card-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #4070F4;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+    font-size: 22px !important;
+}
+
+.description {
+    font-size: 14px;
+    color: #707070;
+    text-align: center;
+}
+
+.button {
+    border: none;
+    font-size: 16px;
+    color: #FFF;
+    padding: 8px 16px;
+    background-color: #4070F4;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: #265DF2;
+}
+
+.swiper-navBtn {
+    color: #6E93f7;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+    color: #4070F4;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 35px;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: #6E93f7;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #4070F4;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+}
+
+/*--------------------------------------------------------------
+# Benefits
+--------------------------------------------------------------*/
+.Benefits {
+    margin: 30px 0;
+    padding: 30px 0;
+    background: url(../img/bgg.jpg);
+    background-size: cover;
+}
+
+.Benefits h1 {
+    margin: 30px;
+    color: #ffffff;
+    font-size: 42px;
+}
+
+.Benefits .box {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    display: inline-block;
+    height: 200px;
+}
+
+.Benefits .box img {
+    width: 20%;
+    margin: 0 10px;
+    float: left;
+}
+
+.Benefits .box h2 {
+    font-size: 22px !important;
+    margin: 10px 0;
+}
+
+.Benefits .box p {
+    margin-left: 80px;
+}
+
+.Benefits .robin_btn {
+    background: #90d000;
+    width: auto;
+    border-radius: 6px;
+    border: none;
+    padding: 8px 30px;
+    margin: 35px 0;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+/*--------------------------------------------------------------
+# award area
+--------------------------------------------------------------*/
+.award {
+    margin: 50px 0;
+    padding: 0;
+}
+
+.award h1 {
+    font-size: 42px;
+    margin: 30px 0;
+}
+
+.award .image img {
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+# gallery
+--------------------------------------------------------------*/
+.gallery {
+    margin: 30px;
+    padding: 20px 0;
+}
+
+.gallery h1 {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.gallery img {
+    width: 100%;
+    margin: 30PX 0;
+}
+
+/*-------------------------------------------------
+# Counter
+--------------------------------------------------*/
+
+.count {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.counter-wrapper {
+    background-image: url(../img/cntr-bg.jpg);
+    background: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.counter-wrapper:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+}
+
+.counter-inner {
+    position: relative;
+    z-index: 2;
+    padding: 30px;
+}
+
+.count-icon {
+    font-size: 48px;
+}
+
+.text-white {
+    border-right: 1px solid #fff;
+}
+
+/*-------------------------------------------------
+# Logo
+--------------------------------------------------*/
+.clients{
+  margin: 30px;
+  padding: 30px;
+}
+.clients h2{
+  margin: 30px 0;
+}
+.clients .box {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 60%;
+    height: auto;    
+    transition: transform .5s ease-in;
+    margin: 8px auto;
+}
+
+.clients .box img {
+}
+
+.clients .box:hover {
+    transform: scale(1.2);
+}
+.owl-carousel .owl-item img{
+  width: auto;
+}
+/*-------------------------------------------------
+# Testimonals
+--------------------------------------------------*/
+.rvw{
+  margin: 30px 0;
+  padding: 50px 20px;
+  background: #00542f;
+}
+.rvw h1{
+  margin: 30px 0 40px;
+  text-align: center;
+  color: #ffffff;
+
+}
+.rvw img{
+  width: 100%;
+  border: 1px solid #ffffff;
+  margin: 30PX 0;
+}
+
+/*-----------------------------------------------
+#FAQ
+------------------------------------------------*/
+.faq{
+  margin: 30px 0;
+  padding: 30px;
+}
+.faq .accordion-header{
+  font-size: 28px !important;
+  color: #006b2c;
+}
+.faq .accordion-body{
+  font-size: 18px;
+}
+/*-----------------------------------------------
+#Footer
+------------------------------------------------*/
+footer{
+  margin: 30px 0 0;
+  padding: 30px;
+  text-align: center;
+  background: #006c27;
+}
+footer i{
+  margin-right: 10px;
+}
+footer p{
+  margin: 10px;
+  color: #ffffff;
+  font-size: 22px;
+}

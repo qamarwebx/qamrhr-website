@@ -1,0 +1,16 @@
+body {
+  background: #ebefff4a;
+}
+
+/*-------========= Page =========-------*/
+.pvc-pt{
+  margin: 20px;
+  padding: 20px;
+}
+.pvc-pt .heading{
+  background: #ffffff;
+  padding: 10px;
+  margin: 20px 0;
+  text-align: center;
+  border-radius: 10px;
+}
